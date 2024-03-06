@@ -53,7 +53,10 @@ if (isset($_POST["edit"])) {
         </li>
         <li>
             <label for="gender">Gender :</label><br>
-            <input type="text" name="gender" id="gender" value="<?= $rows["gender"] ?>">
+            <select name="gender" id="gender">
+                <option value="male" <?php echo ($rows["gender"] == 'male') ? 'selected' : ''; ?>>Male</option>
+                <option value="female" <?php echo ($rows["gender"] == 'female') ? 'selected' : ''; ?>>Female</option>
+            </select>
         </li>
         <li>
             <label for="hobi">Hobi :</label><br>

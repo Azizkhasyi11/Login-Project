@@ -46,7 +46,7 @@ function signup($data)
         return 0;
     }
 
-    // Encryp Pass
+    // Encrypt Pass
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     $query = "INSERT INTO users
@@ -107,15 +107,6 @@ function ubah($data)
         echo "
         <script>
             alert('Umur harus angka!');
-        </script>
-        ";
-        return 0;
-    }
-
-    if (strtolower($gender) !== "pria" && strtolower($gender) !== "wanita") {
-        echo "
-        <script>
-            alert('Gender salah! (pria/wanita)');
         </script>
         ";
         return 0;
