@@ -23,7 +23,7 @@
     }
 </style>
 
-<footer bottom="0" align="center">
+<footer bottom="0" align="center" id="footer">
     <p>
         Created with <i class="bi bi-heart-fill"></i> by
         <a href="https://github.com/Azizkhasyi11">Azizkhasyi11</a>

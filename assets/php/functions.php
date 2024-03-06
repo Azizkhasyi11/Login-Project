@@ -1,6 +1,6 @@
 <?php
 // Connect database
-$conn = mysqli_connect("localhost", "root", "", "changeThis");
+$conn = mysqli_connect("localhost", "root", "", "mencobalagi");
 
 // Check if the connection is successful
 if (!$conn) {
@@ -51,7 +51,7 @@ function signup($data)
 
     $query = "INSERT INTO users
                 VALUES
-                ('', '$nama', '', '', '', '', '', '$password', '$current_timestamp')";
+                ('', '$nama', '', '', '', '', '$password', '$current_timestamp')";
     // Add the user
     mysqli_query($conn, $query);
 
