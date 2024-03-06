@@ -66,6 +66,7 @@ div.clockDisplay{
     border-radius: 4px;
     float: right;
     width: fit-content;
+    -moz-fit-content: fit-content;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */

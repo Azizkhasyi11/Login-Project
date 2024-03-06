@@ -1,4 +1,6 @@
-# You know what to do right?
+# CRUD On PHP
+
+This is my first time using php, and see what I can do with it. So, Ill try make this and this for my assigment for school too. So, yeah
 
 What inside?
 ```
@@ -22,7 +24,6 @@ What inside?
 │   └───template
 │           footer.php
 │
-├───img
 └───pages
         edit.php
         login.php

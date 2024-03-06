@@ -37,7 +37,6 @@ $rows = query($query);
 
         setInterval(updateClock, 100);
     </script>
-    <link rel="icon" href="assets/img/icon.jpg">
 </head>
 
 <body>
